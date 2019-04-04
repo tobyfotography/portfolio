@@ -111,7 +111,7 @@
 @media (min-width: 320px) and (max-width: 480px) {
 	.author_wrapper {
 		width: 90%;
-		margin: 100px auto 0 auto;
+		margin: 130px auto 0 auto !important ;
 	}
 
 	h1 {
@@ -155,7 +155,7 @@
 	.author_wrapper {
 		width: 90%;
 		text-align: center;
-		margin: 100px auto 0 auto;
+		margin: 130px auto 0 auto !important;
 	}
 
 	.author_wrapper button {
