@@ -104,7 +104,10 @@
 		width: 40px;
 		float: left;
 	}
-
+      
+	.navbar-brand {
+     width: 130px !important;
+}
 
 }
 
