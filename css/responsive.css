@@ -115,7 +115,7 @@
 	}
 
 	.navbar-brand {
-		width: 130px !important;
+		width: 171px !important;
 	}
 
 
@@ -148,8 +148,13 @@
 	}
 
 	.navbar-brand {
-		width: 130px !important;
+		width: 170px !important;
 	}
+	
+	#main-logo{
+	    width: 170px !important;
+	}
+	
 
 	.img-container {
 		position: relative !important;
@@ -197,6 +202,10 @@
 
 	.navbar-brand {
 		width: 130px;
+	}
+	
+	#main-logo{
+		width: 130px !important;
 	}
 
 }
