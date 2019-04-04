@@ -130,8 +130,8 @@
 		font-size: 1.7em;
 	}
 
-	.navbar .logo {
-		width: 68% !important;
+	.navbar-brand {
+		width: 130px !important;
 	}
 
 	.img-container {
