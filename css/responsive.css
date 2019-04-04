@@ -59,7 +59,8 @@
 		text-align: left;
 		margin-left: 8px;
 	}
-
+	
+	
 	.author_wrapper button {
 		padding: 12px;
 	}
@@ -86,6 +87,14 @@
 		right: 30px;
 	}
 
+	#portfolio h2 {
+		font-size: 2.6em !important;
+	}
+	
+	.display-4 {
+		font-size: 2.2em !important;
+	}
+	
 	.vertical_text {
 		font-size: .7em !important;
 		display: block;
@@ -104,21 +113,18 @@
 		width: 40px;
 		float: left;
 	}
-      
-	.navbar-brand {
-     width: 130px !important;
-}
+
 
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
 	.author_wrapper {
 		width: 90%;
-		margin: 130px auto 0 auto !important ;
+		margin: 160px auto 0 auto;
 	}
 
 	h1 {
-		font-size: 2em;
+		font-size: 1.6em !important;
 	}
 
 	.author_wrapper button {
@@ -126,15 +132,19 @@
 	}
 
 	#portfolio h2 {
-		font-size: 3em;
+		font-size: 2.5em !important;
 	}
 
 	.message h2 {
 		font-size: 1.7em;
 	}
+	
+	.display-4 {
+		font-size: 2.1em !important;
+	}
 
-	.navbar-brand {
-		width: 130px !important;
+	.navbar .logo {
+		width: 68% !important;
 	}
 
 	.img-container {
@@ -158,7 +168,7 @@
 	.author_wrapper {
 		width: 90%;
 		text-align: center;
-		margin: 130px auto 0 auto !important;
+		margin: 150px auto 0 auto;
 	}
 
 	.author_wrapper button {
@@ -166,11 +176,15 @@
 	}
 
 	h1 {
-		font-size: 1.8em !important;
+		font-size: 1.5em !important;
+	}
+	
+	.display-4 {
+		font-size: 2em !important;
 	}
 
 	#portfolio h2 {
-		font-size: 2.9em !important;
+		font-size: 2.4em !important;
 	}
 
 	.message h2 {
