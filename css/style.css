@@ -82,8 +82,8 @@
 	transition: all .2s ease-in;
 }
 
-.navbar-brand {
-	width: 200px;
+.navbar .logo {
+	width: 200px !important;
 }
 
 
