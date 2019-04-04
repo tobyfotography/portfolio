@@ -59,8 +59,8 @@
 		text-align: left;
 		margin-left: 8px;
 	}
-	
-	
+
+
 	.author_wrapper button {
 		padding: 12px;
 	}
@@ -90,15 +90,11 @@
 	#portfolio h2 {
 		font-size: 2.6em !important;
 	}
-	
-	.navbar-brand {
-		width: 132px !important;
-	}
-	
+
 	.display-4 {
 		font-size: 2.2em !important;
 	}
-	
+
 	.vertical_text {
 		font-size: .7em !important;
 		display: block;
@@ -116,6 +112,10 @@
 	.vertical2 {
 		width: 40px;
 		float: left;
+	}
+
+	.navbar-brand {
+		width: 130px !important;
 	}
 
 
@@ -142,13 +142,13 @@
 	.message h2 {
 		font-size: 1.7em;
 	}
-	
+
 	.display-4 {
 		font-size: 2.1em !important;
 	}
 
 	.navbar-brand {
-		width: 132px !important;
+		width: 130px !important;
 	}
 
 	.img-container {
@@ -182,7 +182,7 @@
 	h1 {
 		font-size: 1.5em !important;
 	}
-	
+
 	.display-4 {
 		font-size: 2em !important;
 	}
