@@ -1,0 +1,305 @@
+/* ======================================
+//	Global css
+======================================*/
+
+.social-icons {
+	width: 80%;
+	margin: 0 auto 10px auto;
+	text-align: center;
+}
+
+.social-icons a {
+	margin-right: 6px;
+	font-size: 2em;
+}
+
+.fa-facebook {
+	color:  #6666ff;
+	/* light blue */
+}
+
+.fa-instagram {
+	color: #ff6bff;
+	/* light magenta */
+}
+
+.fa-whatsapp {
+	color: #25D366;
+		/* whatsap green */
+}
+
+.fa-facebook:hover {
+	color: #3b5998;
+	/* dark blue */
+}
+
+.fa-instagram:hover {
+	color: #c32aa3
+		/* dark magenta */
+}
+
+.fa-whatsapp:hover {
+	color: green;
+		/* dark green */
+}
+
+.copyright {
+	color: white;
+	padding: 50px 0;
+	margin: 0;
+	font-size: .8em !important;
+	letter-spacing: .01em;
+}
+
+.copyright a {
+	color: #FFD700;
+	/* gold */
+	font-weight: 500;
+}
+
+.copyright a:hover {
+	color: #DAA520;
+	/* dark gold */
+	font-weight: 500;
+}
+
+
+/* ======================================
+//	header links section
+======================================*/
+.navbar {
+	background-color: black;
+	border: none;
+}
+
+.navbar a {
+	font-size: 1.1rem;
+	margin-right: 20px;
+	-webkit- transition: all .2s ease-in;
+	-moz- transition: all .2s ease-in;
+	-ms- transition: all .2s ease-in;
+	-o- transition: all .2s ease-in;
+	transition: all .2s ease-in;
+}
+
+.navbar-brand {
+	width: 200px;
+}
+
+
+.hover a:hover {
+	color: #FFD700 !important;
+	/* gold */
+	-webkit- transform: scale(1, 1.1);
+	-moz- transform: scale(1, 1.1);
+	-ms- transform: scale(1, 1.1);
+	-o- transform: scale(1, 1.1);
+	transform: scale(1, 1.1);
+	margin-top: 5px;
+}
+
+
+/* ======================================
+//portfolio header section
+======================================*/
+.portfolioBg {
+	position: relative;
+	margin-top: -16px;
+	margin-bottom: 100px;
+	padding: 0;
+	text-align: center;
+	opacity: .9;
+	background-color: Black;
+}
+
+.portfolioHeading {
+	color: white;
+	width: 80%;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+/* ======================================
+//portfolio (owl-slider) section
+ ======================================*/
+
+#portfolio {
+	position: relative !important;
+}
+
+#portfolio section {
+	margin-bottom: 150px;
+}
+
+#portfolio img {
+	height: 400px;
+}
+
+#portfolio .item {
+	position: relative !important;
+	margin: 0 !important;
+	padding: 2px !important;
+}
+
+.item {
+	cursor: pointer;
+}
+
+
+/* ======================================
+// carousel nav 
+======================================*/
+
+.img-container {
+	position: relative;
+	width: 100%;
+}
+
+
+.owl-nav {
+
+	color: white;
+	position: absolute;
+	top: 100px;
+	font-size: 5.5em;
+	opacity: .9;
+	width: 100%;
+}
+
+
+.owl-next {
+	background: none !important;
+	float: right;
+}
+
+.owl-prev {
+	float: left;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+	background: none !important;
+	border: none: !important;
+}
+
+.owl-next:focus,
+.owl-next:active {
+	border: none;
+	outline: none;
+}
+
+.owl-prev:focus,
+.owl-prev:active {
+	border: none;
+	outline: none;
+}
+
+.item p {
+	position: absolute;
+	color: white;
+	bottom: 0;
+	background-color: red;
+}
+
+
+/* ======================================
+//	About css
+======================================*/
+
+#aboutSection {
+	margin-bottom: 150px;
+}
+
+.aboutBg {
+	position: relative !important;
+	margin-top: -16px;
+	margin-bottom: 150px;
+	padding: 0;
+	text-align: center;
+	opacity: .9;
+	background-color: Black;
+}
+
+.aboutHeading {
+	color: white;
+	width: 80%;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
+.social-icons hr {
+	border: 4px solid red;
+	width: 60%;
+}
+
+
+
+/* ======================================
+// Contact css
+======================================*/
+
+#contactSection {
+	margin-bottom: 150px;
+}
+
+.contactBg {
+	position: relative !important;
+	margin-top: -16px;
+	margin-bottom: 150px;
+	padding: 0;
+	text-align: center;
+	opacity: .9;
+	background-color: Black;
+}
+
+.contactHeading {
+	color: white;
+	width: 80%;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
+
+.contactsInfo {
+	background-color: #cbd4;
+	padding: 20px 1%;
+}
+
+.contactsInfo h2 {
+	font-size: 1.6em !important;
+	font-weight: 400;
+}
+
+.contactsInfo p {
+	font-size: 1.1em;
+}
+
+.contactsInfo i {
+	font-size: 2.4em;
+	color: red;
+}
+
+.message {
+	margin-top: 100px;
+}
+
+.message h2 {
+	margin-bottom: 15px;
+	font-weight: 300;
+}
+
+
+/* ======================================
+// Footer css
+======================================*/
+footer {
+	background-color: #343a40;
+	/* dark grey */
+	text-align: center;
+}

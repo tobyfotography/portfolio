@@ -1,0 +1,181 @@
+@media (min-width: 1025px) and (max-width: 2000px) {
+	.author_wrapper {
+		width: 46%;
+		padding: 0 0 0 0;
+		margin: 180px 0px 0 0;
+		margin-left: -15px;
+	}
+
+	.author_wrapper > h1 {
+		font-size: 3em;
+	}
+
+	.author_wrapper h1 > b {
+		display: block;
+		margin-left: 8px;
+	}
+
+	.author_wrapper button {
+		padding: 15px 25px;
+		margin-top: 15px;
+	}
+}
+
+@media (min-width: 901px) and (max-width: 1024px) {
+	.author_wrapper {
+		width: 46%;
+		padding: 0 20px 0 0;
+		margin: 90px 0 0 0;
+	}
+
+	.author_wrapper > h1 {
+		font-size: 2.5em;
+	}
+
+	.author_wrapper h1 > b {
+		display: block;
+		text-align: left;
+		margin-left: 8px;
+	}
+
+	.author_wrapper button {
+		padding: 13px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 900px) {
+	.author_wrapper {
+		width: 46%;
+		padding: 0 20px 0 0;
+		margin: 90px 0 0 0;
+	}
+
+	.author_wrapper > h1 {
+		font-size: 2em;
+	}
+
+	.author_wrapper h1 > b {
+		display: block;
+		text-align: left;
+		margin-left: 8px;
+	}
+
+	.author_wrapper button {
+		padding: 12px;
+	}
+
+	.vertical_text {
+		display: none;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.author_wrapper {
+		width: 90%;
+		margin-top: 13px;
+	}
+
+	.author_wrapper > h1 {
+		display: none;
+	}
+
+	.author_wrapper button {
+		padding: 12px;
+		position: absolute;
+		top: 290px;
+		right: 30px;
+	}
+
+	.vertical_text {
+		font-size: .7em !important;
+		display: block;
+		margin-top: -60px;
+		margin-left: 4px;
+		width: 90px;
+		overflow: auto;
+	}
+
+	.vertical1 {
+		width: 40px;
+		float: left;
+	}
+
+	.vertical2 {
+		width: 40px;
+		float: left;
+	}
+
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.author_wrapper {
+		width: 90%;
+		margin: 200px auto 0 auto;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	.author_wrapper button {
+		padding: 12px;
+	}
+
+	#portfolio h2 {
+		font-size: 3em;
+	}
+
+	.message h2 {
+		font-size: 1.7em;
+	}
+
+	.navbar .logo {
+		width: 68% !important;
+	}
+
+	.img-container {
+		position: relative !important;
+		margin: 0 auto;
+		width: 350px;
+	}
+
+	.owl-nav {
+		color: white;
+		width: 300px;
+		position: absolute !important;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+}
+
+@media (max-width: 320px) {
+	.author_wrapper {
+		width: 90%;
+		text-align: center;
+		margin: 180px auto 0 auto;
+	}
+
+	.author_wrapper button {
+		padding: 12px;
+	}
+
+	h1 {
+		font-size: 1.8em !important;
+	}
+
+	#portfolio h2 {
+		font-size: 2.9em !important;
+	}
+
+	.message h2 {
+		font-size: 1.7em;
+	}
+
+	.navbar-brand {
+		width: 130px;
+	}
+
+}

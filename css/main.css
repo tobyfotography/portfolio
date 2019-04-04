@@ -1,0 +1,284 @@
+/* ======================================
+//	full height background
+ ======================================*/
+html,
+body {
+	height: 100%;
+	font-family: serif, Times, sans-serif;
+	overflow: hidden;
+	position: relative;
+}
+
+
+/* ======================================
+//	home header links
+======================================*/
+.navbar {
+	position: relative !important;
+	background-color: black;
+	border: none;
+}
+
+.navbar a {
+	font-size: 1.1rem;
+	margin-right: 20px;
+	-webkit- transition: all .2s ease-in;
+	-moz- transition: all .2s ease-in;
+	-ms- transition: all .2s ease-in;
+	-o- transition: all .2s ease-in;
+	transition: all .2s ease-in;
+}
+
+.navbar .logo {
+	width: 200px;
+}
+
+.hover a:hover {
+	color: #FFD700 !important;
+	/* gold */
+	-webkit- transform: scale(1, 1.1);
+	-moz- transform: scale(1, 1.1);
+	-ms- transform: scale(1, 1.1);
+	-o- transform: scale(1, 1.1);
+	transform: scale(1, 1.1);
+	margin-top: 5px;
+}
+
+.social-icons {
+	width: 80%;
+	margin: 0 auto 10px auto;
+	text-align: center;
+}
+
+.social-icons a {
+	margin-right: 6px;
+	font-size: 1.4em;
+}
+
+.fa-facebook {
+	color:  #6666ff;
+	/*light blue */
+}
+
+.fa-instagram {
+	color: #ff6bff;
+	/* light magenta */
+}
+
+.fa-whatsapp {
+	color: #25D366;
+		/* whatsap green */
+}
+
+.fa-facebook:hover {
+	color: #3b5998;
+	/* dark blue */
+}
+
+.fa-instagram:hover {
+	color: #c32aa3
+		/* dark magenta */
+}
+
+.fa-whatsapp:hover {
+	color: green;
+		/* dark blue */
+}
+
+
+
+/* ======================================
+//	home full width & height 			 background
+ ======================================*/
+.homeBg {
+	background-image: url("../images/TobbyPhotography.jpg");
+	background-position: top center;
+	background-size: cover;
+	height: 100%;
+	color: #ffffff;
+	/* white */
+	overflow: hidden;
+}
+
+.author_wrapper {
+	width: 100%;
+	text-align: center;
+}
+
+
+/* ======================================
+// vertical text
+ ======================================*/
+
+.vertical_text {
+	display: none;
+}
+
+.vertical_text h1 {
+	font-size: 2.1em;
+}
+
+.vertical_text ul {
+	margin: 0;
+	padding: 0;
+}
+
+.vertical_text li {
+	list-style: none;
+}
+
+.vertical1 {
+	color: #FFD700;
+}
+
+/* gold */
+
+
+/* ======================================
+// animations
+ ======================================*/
+@-webkit-keyframes fadeInUp {
+	0% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		opacity: 0;
+		transform: translate3d(0, 100%, 0)
+	}
+
+	to {
+		-webkit-transform: translateZ(0);
+		opacity: 1;
+		transform: translateZ(0)
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		-webkit-transform: translate3d(0, 100%, 0);
+		opacity: 0;
+		transform: translate3d(0, 100%, 0)
+	}
+
+	to {
+		-webkit-transform: translateZ(0);
+		opacity: 1;
+		transform: translateZ(0)
+	}
+}
+
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp
+}
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		opacity: 0;
+		transform: translate3d(0, -100%, 0)
+	}
+
+	to {
+		-webkit-transform: translateZ(0);
+		opacity: 1;
+		transform: translateZ(0)
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		-webkit-transform: translate3d(0, -100%, 0);
+		opacity: 0;
+		transform: translate3d(0, -100%, 0)
+	}
+
+	to {
+		-webkit-transform: translateZ(0);
+		opacity: 1;
+		transform: translateZ(0)
+	}
+}
+
+.fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown
+}
+
+@keyframes fadeInLeft {
+	0% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		opacity: 0;
+		transform: translate3d(-100%, 0, 0)
+	}
+
+	to {
+		-webkit-transform: translateZ(0);
+		opacity: 1;
+		transform: translateZ(0)
+	}
+}
+
+.fadeInLeft {
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft
+}
+
+.animated {
+	-webkit-animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-duration: 1s;
+	animation-fill-mode: both
+}
+
+.animated.delay-1s {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s
+}
+
+.animated.delay-2s {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s
+}
+
+/* ======================================
+//	button animation
+ ======================================*/
+.author_wrapper button > a {
+	color: #fff;
+	/* white */
+	-webkit- transition: all .3s linear;
+	-moz- transition: all .3s linear;
+	-ms- transition: all .3s linear;
+	-o- transition: all .3s linear;
+	transition: all .3s linear;
+	text-decoration: none;
+}
+
+.author_wrapper button > a:hover {
+	-webkit- transform: scale(1.1, 1.1);
+	-moz- transform: scale(1.1, 1.1);
+	-ms- transform: scale(1.1, 1.1);
+	-o- transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+	color: #ffffff;
+	/* white */
+	background-color: dark-red;
+	font-weight: bold;
+}
+
+.author_wrapper b {
+	display: block;
+	margin-bottom: 8px;
+	color: #FFD700;
+	/* gold */
+}
+
+
+
+.author_wrapper h1 {
+	font-family: "Pacifico", cursive;
+	font-weight: 100;
+}
+
+.author_wrapper button {
+	margin-top: 8px;
+}
