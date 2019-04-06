@@ -65,9 +65,6 @@
 		padding: 12px;
 	}
 
-	.vertical_text {
-		display: none;
-	}
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -76,10 +73,7 @@
 		margin-top: 13px;
 	}
 
-	.author_wrapper > h1 {
-		display: none;
-	}
-
+	
 	.author_wrapper button {
 		padding: 12px;
 		position: absolute;
@@ -93,25 +87,6 @@
 
 	.display-4 {
 		font-size: 2.2em !important;
-	}
-
-	.vertical_text {
-		font-size: .7em !important;
-		display: block;
-		margin-top: -60px;
-		margin-left: 4px;
-		width: 90px;
-		overflow: auto;
-	}
-
-	.vertical1 {
-		width: 40px;
-		float: left;
-	}
-
-	.vertical2 {
-		width: 40px;
-		float: left;
 	}
 
 	.navbar-brand {
