@@ -71,13 +71,12 @@
 	.author_wrapper {
 		width: 46%;
 		padding: 0 20px 0 0;
-		outline: 1px solid red;
 		margin: 90px 0 0 0;
 	}
 
 	
 	.author_wrapper button {
-		padding: 12px;
+		padding: 8px;
 	}
 
 	#portfolio h2 {
